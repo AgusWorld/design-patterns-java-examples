@@ -33,7 +33,7 @@ public class Vigilancia implements PropertyChangeListener{
 		String p=(String)evt.getNewValue();
 		if(p.toLowerCase().contains(palabraProhibida.toLowerCase())) {
 			comptador++;
-			System.out.println("Aquest és un traidor!! Ha dit->"+palabraProhibida);
+			System.out.println("Aquest es un traidor!! Ha dit->"+palabraProhibida);
 		}
 		if(comptador>=5) {
 			System.out.println("Cridar a Policia Militar!! Hi ha molts traidors!!! ");
